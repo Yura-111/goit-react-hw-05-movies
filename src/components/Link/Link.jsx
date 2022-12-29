@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { NavLinkStyled, LinkStyled } from './NavigateLink.styled';
+import { NavLinkStyled, LinkStyled } from './Link.styled';
 
 export const Link = ({ icon: Icon, text, to }) => {
   return (

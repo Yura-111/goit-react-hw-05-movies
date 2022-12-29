@@ -4,7 +4,7 @@ import { MoviesList } from 'components/MoviesList/MoviesList';
 import { StyledBtn, StyledInput, SearchBar } from './Movies.styled';
 import { getFilmsByKeywords } from 'components/MoviesAPI/MoviesAPI';
 
-const Movies = () => {
+export const Movies = () => {
   const [filmList, setFilmList] = useState([]);
   const [searchParams, setSearchParams] = useSearchParams();
 
@@ -38,5 +38,3 @@ const Movies = () => {
     </main>
   );
 };
-
-export default Movies;

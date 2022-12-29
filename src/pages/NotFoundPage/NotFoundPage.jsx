@@ -1,5 +1,5 @@
-import { Box } from 'components/App.styled';
-import { HomeLink, PageTitle, Container, Title } from './NotFoundPage.styles';
+import { Box } from 'components/Box';
+import { HomeLink, PageTitle, Container, Title } from './NotFoundPage.styled';
 
 export const NotFoundPage = () => {
   return (

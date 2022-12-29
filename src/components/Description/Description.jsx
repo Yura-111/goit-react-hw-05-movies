@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { DetailsTitle, MainTitle, Text } from 'components/PageTitle/PageTitle';
 import { Poster, DescriptionStyled } from './Description.styled';
-import { Box } from 'components/App.styled';
+import { Box } from 'components/Box';
 
 const BASE_IMG_URL = 'https://image.tmdb.org/t/p/w500';
 

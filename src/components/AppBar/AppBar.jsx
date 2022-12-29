@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import { NavLink } from 'components/Link/Link';
-import { Box } from 'components/App.styled';
+import { Box } from 'components/Box';
 
 export const AppBar = () => {
   return (

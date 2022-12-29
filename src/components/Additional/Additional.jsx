@@ -3,7 +3,7 @@ import { NavLink } from 'components/Link/Link';
 import { Title } from 'components/PageTitle/PageTitle';
 import { Suspense } from 'react';
 import { Loader } from 'components/Loader/Loader';
-import { Box } from 'components/App.styled';
+import { Box } from 'components/Box';
 
 const navItems = [
   { href: 'cast', text: 'Cast' },

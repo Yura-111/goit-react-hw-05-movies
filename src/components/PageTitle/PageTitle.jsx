@@ -4,7 +4,7 @@ import {
   StyledDescription,
   StyledMainTitle,
   StyledTitle,
-} from './PageTitles.styled';
+} from './PageTitle.styled';
 
 export const MainTitle = ({ text, style }) => {
   return <StyledMainTitle style={style}>{text}</StyledMainTitle>;

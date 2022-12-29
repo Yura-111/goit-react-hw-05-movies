@@ -1,5 +1,5 @@
 import { Title } from 'components/PageTitle/PageTitle';
-import { getFilmPostersById } from 'components//MoviesAPI/MoviesAPI';
+import { getFilmPostersById } from 'components/MoviesAPI/MoviesAPI';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { ImageItem, ImagesList } from './Posters.styled';

@@ -1,5 +1,5 @@
 import { AppBar } from 'components/AppBar/AppBar';
-import { Box } from 'components/App.styled';
+import { Box } from 'components/Box';
 
 export const Layout = () => {
   return (

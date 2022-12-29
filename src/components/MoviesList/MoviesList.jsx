@@ -1,4 +1,4 @@
-import { Box } from 'components/App.styled';
+import { Box } from 'components/Box';
 import PropTypes from 'prop-types';
 import { useLocation } from 'react-router-dom';
 import { StyledItem, StyledLink } from './MoviesList.styled';

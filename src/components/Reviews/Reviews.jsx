@@ -4,7 +4,7 @@ import {
   StyledRewiev,
   StyledRewievTitle,
   RewievItem,
-} from './Rewiev.styled';
+} from './Reviews.styled';
 import { getMovieRewievsById } from 'components/MoviesAPI/MoviesAPI';
 import { Title } from 'components/PageTitle/PageTitle';
 

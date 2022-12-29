@@ -1,4 +1,4 @@
-import { Box } from 'components/App.styled';
+import { Box } from 'components/Box';
 import { RotatingLines } from 'react-loader-spinner';
 
 export const Loader = () => {

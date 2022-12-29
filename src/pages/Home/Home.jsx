@@ -3,7 +3,7 @@ import { getTrandings } from 'components/MoviesAPI/MoviesAPI';
 import { MoviesList } from 'components/MoviesList/MoviesList';
 import { MainTitle } from 'components/PageTitle/PageTitle';
 
-const Home = () => {
+export const Home = () => {
   const [trendings, setTrendings] = useState([]);
 
   useEffect(() => {
@@ -26,5 +26,3 @@ const Home = () => {
     </main>
   );
 };
-
-export default Home;
