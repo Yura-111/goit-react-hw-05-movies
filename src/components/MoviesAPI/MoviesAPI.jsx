@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 axios.defaults.baseURL = 'https://api.themoviedb.org/3';
+
 const API_KEY = 'e862719ae3fd0863df1748cb2452c82b';
 
 export const getTrandings = async () => {

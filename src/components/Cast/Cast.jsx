@@ -6,7 +6,7 @@ import { Title } from 'components/PageTitle/PageTitle';
 
 const Cast = () => {
   const [cast, setCast] = useState([]);
-  const { movieId } = useParams();
+  const { movieId } = useParams();  
 
   useEffect(() => {
     getMovieCreditsById(Number(movieId))
